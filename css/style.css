@@ -2217,3 +2217,78 @@ width:210px;
 }
 
 }
+
+
+/*==========================
+RESPONSIVE NAVBAR
+==========================*/
+
+@media (max-width: 992px){
+
+    #menuBtn{
+
+        display:block;
+
+        z-index:10001;
+
+    }
+
+    .header-btn{
+
+        display:none;
+
+    }
+
+    nav{
+
+        position:fixed;
+
+        top:0;
+
+        right:-100%;
+
+        width:280px;
+
+        height:100vh;
+
+        background:#071321;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        transition:.4s;
+
+        z-index:9999;
+
+        box-shadow:-10px 0 30px rgba(0,0,0,.4);
+
+    }
+
+    nav.active{
+
+        right:0;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        gap:35px;
+
+        text-align:center;
+
+    }
+
+    nav a{
+
+        font-size:22px;
+
+        font-weight:600;
+
+    }
+
+}
