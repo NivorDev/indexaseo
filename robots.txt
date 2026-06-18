@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://nivordev.github.io/indexaseo/sitemap.xml
